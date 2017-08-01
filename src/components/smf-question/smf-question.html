@@ -1,0 +1,9 @@
+<div [formGroup]="form">
+  <ion-item>
+    <ion-label stacked [attr.for]="question.key">{{question.label}}</ion-label>
+    <div [ngSwitch]="question.controlType">
+      
+      <ion-input *ngSwitchCase="'textbox'" [type]="question.type" [placeholder]="question.placeholder"></ion-input>
+    </div>
+  </ion-item>
+</div>

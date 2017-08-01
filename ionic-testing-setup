@@ -1,0 +1,19 @@
+#!/bin/bash
+clear
+npm install -g karma-cli
+npm install @angular/cli --save-dev
+npm install codecov --save-dev
+npm install jasmine-core --save-dev
+npm install jasmine-spec-reporter --save-dev
+npm install karma --save-dev
+npm install karma-chrome-launcher --save-dev
+npm install karma-jasmine --save-dev
+npm install karma-mocha-reporter --save-dev
+npm install karma-remap-istanbul --save-dev
+npm install ts-node --save-dev
+npm install tslint --save-dev
+npm install tslint-eslint-rules --save-dev
+npm install @types/jasmine --save-dev
+npm install @types/node --save-dev
+
+echo "Finished setting up testing"

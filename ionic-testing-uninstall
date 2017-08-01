@@ -1,0 +1,19 @@
+#!/bin/bash
+clear
+npm uninstall -g karma-cli
+npm uninstall @angular/cli --save-dev
+npm uninstall codecov --save-dev
+npm uninstall jasmine-core --save-dev
+npm uninstall jasmine-spec-reporter --save-dev
+npm uninstall karma --save-dev
+npm uninstall karma-chrome-launcher --save-dev
+npm uninstall karma-jasmine --save-dev
+npm uninstall karma-mocha-reporter --save-dev
+npm uninstall karma-remap-istanbul --save-dev
+npm uninstall ts-node --save-dev
+npm uninstall tslint --save-dev
+npm uninstall tslint-eslint-rules --save-dev
+npm uninstall @types/jasmine --save-dev
+npm uninstall @types/node --save-dev
+
+echo "Finished uninstalling testing"
